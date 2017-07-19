@@ -1,0 +1,22 @@
+﻿Build started 7/19/2017 3:44:16 PM.
+     1>Project "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Alone.vcxproj -> C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe
+       FinalizeBuildStatus:
+         Deleting file "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild".
+         Touching "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.lastbuildstate".
+     1>Done Building Project "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

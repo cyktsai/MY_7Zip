@@ -1,5 +1,6 @@
-DIRS = UI\~ Bundles\~
-
+DIRS = \
+  UI\~ \
+  Bundles\~ \
   
 all: $(DIRS)
 
