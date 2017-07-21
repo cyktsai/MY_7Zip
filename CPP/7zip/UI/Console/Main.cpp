@@ -511,9 +511,8 @@ int Main2(
   GetArguments(numArgs, args, commandStrings);
   #endif
 
-  //testing
-  /*int i = commandStrings.Size();
-  std::cout << i << endl;*/
+  size_t i = commandStrings.Size();
+  std::cout << i << std::endl;
   
 
   #ifndef UNDER_CE
@@ -547,7 +546,7 @@ int Main2(
   
   if (options.HelpMode)
   {
-	  std::cout << " Not in "<< endl;
+	  std::cout << " HelpMode is enabled "<< std::endl;
     ShowCopyrightAndHelp(g_StdStream, true);
     return 0;
   }

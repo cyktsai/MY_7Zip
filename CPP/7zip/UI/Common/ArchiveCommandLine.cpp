@@ -872,13 +872,14 @@ static inline void SetStreamMode(const CSwitchResult &sw, unsigned &res)
 void CArcCmdLineParser::Parse1(const UStringVector &commandStrings,
     CArcCmdLineOptions &options)
 {
+	//
   if (!parser.ParseStrings(kSwitchForms, ARRAY_SIZE(kSwitchForms), commandStrings))
     throw CArcCmdLineException(parser.ErrorMessage, parser.ErrorLine);
 
   options.IsInTerminal = MY_IS_TERMINAL(stdin);
   options.IsStdOutTerminal = MY_IS_TERMINAL(stdout);
   options.IsStdErrTerminal = MY_IS_TERMINAL(stderr);
-
+  
   options.HelpMode = parser[NKey::kHelp1].ThereIs || parser[NKey::kHelp2].ThereIs  || parser[NKey::kHelp3].ThereIs;
 
   options.StdInMode = parser[NKey::kStdIn].ThereIs;

@@ -166,7 +166,8 @@ bool CParser::ParseString(const UString &s, const CSwitchForm *switchForms, unsi
 }
 
 
-bool CParser::ParseStrings(const CSwitchForm *switchForms, unsigned numSwitches, const UStringVector &commandStrings)
+bool CParser::ParseStrings(const CSwitchForm *switchForms, unsigned numSwitches, 
+	const UStringVector &commandStrings)
 {
   StopSwitchIndex = -1;
   ErrorMessage.Empty();

@@ -1,22 +1,180 @@
-﻿Build started 7/19/2017 3:44:16 PM.
-     1>Project "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" on node 2 (build target(s)).
+﻿Build started 7/21/2017 2:54:48 PM.
+     1>Project "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Creating "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D PROG_VARIANT_R /D _DEBUG /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\Debug\Alone.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gr /TP /analyze- /errorReport:prompt ..\..\UI\Console\Main.cpp
+         Main.cpp
          All outputs are up-to-date.
        ResourceCompile:
          All outputs are up-to-date.
        Link:
-         All outputs are up-to-date.
-         Alone.vcxproj -> C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.lib" /MACHINE:X86 "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\resource.res"
+         .\Debug\BenchCon.obj
+         .\Debug\ConsoleClose.obj
+         .\Debug\ExtractCallbackConsole.obj
+         .\Debug\HashCon.obj
+         .\Debug\List.obj
+         .\Debug\Main.obj
+         .\Debug\MainAr.obj
+         .\Debug\OpenCallbackConsole.obj
+         .\Debug\PercentPrinter.obj
+         .\Debug\UpdateCallbackConsole.obj
+         .\Debug\UserInputUtils.obj
+         .\Debug\StdAfx.obj
+         .\Debug\CommandLineParser.obj
+         .\Debug\CRC.obj
+         .\Debug\CrcReg.obj
+         .\Debug\IntToString.obj
+         .\Debug\ListFileUtils.obj
+         .\Debug\MyString.obj
+         .\Debug\MyVector.obj
+         .\Debug\NewHandler.obj
+         .\Debug\Sha256Reg.obj
+         .\Debug\StdInStream.obj
+         .\Debug\StdOutStream.obj
+         .\Debug\StringConvert.obj
+         .\Debug\StringToInt.obj
+         .\Debug\UTFConvert.obj
+         .\Debug\Wildcard.obj
+         .\Debug\XzCrc64Init.obj
+         .\Debug\XzCrc64Reg.obj
+         .\Debug\DLL.obj
+         .\Debug\ErrorMsg.obj
+         .\Debug\FileDir.obj
+         .\Debug\FileFind.obj
+         .\Debug\FileIO.obj
+         .\Debug\FileLink.obj
+         .\Debug\FileName.obj
+         .\Debug\MemoryLock.obj
+         .\Debug\PropVariant.obj
+         .\Debug\PropVariantConv.obj
+         .\Debug\Synchronization.obj
+         .\Debug\System.obj
+         .\Debug\TimeUtils.obj
+         .\Debug\CreateCoder.obj
+         .\Debug\CWrappers.obj
+         .\Debug\FilePathAutoRename.obj
+         .\Debug\FileStreams.obj
+         .\Debug\FilterCoder.obj
+         .\Debug\InBuffer.obj
+         .\Debug\InOutTempBuffer.obj
+         .\Debug\LimitedStreams.obj
+         .\Debug\LockedStream.obj
+         .\Debug\MethodId.obj
+         .\Debug\MethodProps.obj
+         .\Debug\OffsetStream.obj
+         .\Debug\OutBuffer.obj
+         .\Debug\ProgressUtils.obj
+         .\Debug\PropId.obj
+         .\Debug\StreamBinder.obj
+         .\Debug\StreamObjects.obj
+         .\Debug\StreamUtils.obj
+         .\Debug\UniqBlocks.obj
+         .\Debug\VirtThread.obj
+         .\Debug\Bcj2Coder.obj
+         .\Debug\Bcj2Register.obj
+         .\Debug\BcjCoder.obj
+         .\Debug\BcjRegister.obj
+         .\Debug\BranchMisc.obj
+         .\Debug\BranchRegister.obj
+         .\Debug\ByteSwap.obj
+         .\Debug\CopyCoder.obj
+         .\Debug\CopyRegister.obj
+         .\Debug\DeltaFilter.obj
+         .\Debug\Lzma2Decoder.obj
+         .\Debug\Lzma2Encoder.obj
+         .\Debug\Lzma2Register.obj
+         .\Debug\LzmaDecoder.obj
+         .\Debug\LzmaEncoder.obj
+         .\Debug\LzmaRegister.obj
+         .\Debug\XzDecoder.obj
+         .\Debug\XzEncoder.obj
+         .\Debug\7zCompressionMode.obj
+         .\Debug\7zDecode.obj
+         .\Debug\7zEncode.obj
+         .\Debug\7zExtract.obj
+         .\Debug\7zFolderInStream.obj
+         .\Debug\7zHandler.obj
+         .\Debug\7zHandlerOut.obj
+         .\Debug\7zHeader.obj
+         .\Debug\7zIn.obj
+         .\Debug\7zOut.obj
+         .\Debug\7zProperties.obj
+         .\Debug\7zRegister.obj
+         .\Debug\7zSpecStream.obj
+         .\Debug\7zUpdate.obj
+         .\Debug\CoderMixer2.obj
+         .\Debug\DummyOutStream.obj
+         .\Debug\HandlerOut.obj
+         .\Debug\InStreamWithCRC.obj
+         .\Debug\ItemNameUtils.obj
+         .\Debug\MultiStream.obj
+         .\Debug\OutStreamWithCRC.obj
+         .\Debug\ParseProperties.obj
+         .\Debug\LzmaHandler.obj
+         .\Debug\SplitHandler.obj
+         .\Debug\XzHandler.obj
+         .\Debug\ArchiveCommandLine.obj
+         .\Debug\ArchiveExtractCallback.obj
+         .\Debug\ArchiveOpenCallback.obj
+         .\Debug\Bench.obj
+         .\Debug\DefaultName.obj
+         .\Debug\EnumDirItems.obj
+         .\Debug\Extract.obj
+         .\Debug\ExtractingFilePath.obj
+         .\Debug\HashCalc.obj
+         .\Debug\LoadCodecs.obj
+         .\Debug\OpenArchive.obj
+         .\Debug\PropIDUtils.obj
+         .\Debug\SetProperties.obj
+         .\Debug\SortUtils.obj
+         .\Debug\TempFiles.obj
+         .\Debug\Update.obj
+         .\Debug\UpdateAction.obj
+         .\Debug\UpdateCallback.obj
+         .\Debug\UpdatePair.obj
+         .\Debug\UpdateProduce.obj
+         .\Debug\Sha256.obj
+         .\Debug\Xz.obj
+         .\Debug\XzCrc64.obj
+         .\Debug\XzCrc64Opt.obj
+         .\Debug\XzDec.obj
+         .\Debug\XzEnc.obj
+         .\Debug\XzIn.obj
+         .\Debug\7zCrc.obj
+         .\Debug\7zCrcOpt.obj
+         .\Debug\7zStream.obj
+         .\Debug\Aes.obj
+         .\Debug\AesOpt.obj
+         .\Debug\Alloc.obj
+         .\Debug\Bcj2.obj
+         .\Debug\Bcj2Enc.obj
+         .\Debug\Bra.obj
+         .\Debug\Bra86.obj
+         .\Debug\BraIA64.obj
+         .\Debug\CpuArch.obj
+         .\Debug\Delta.obj
+         .\Debug\LzFind.obj
+         .\Debug\LzFindMt.obj
+         .\Debug\Lzma2Dec.obj
+         .\Debug\Lzma2Enc.obj
+         .\Debug\LzmaDec.obj
+         .\Debug\LzmaEnc.obj
+         .\Debug\MtCoder.obj
+         .\Debug\Threads.obj
+         .\Debug\7zAes.obj
+         .\Debug\7zAesRegister.obj
+         .\Debug\MyAes.obj
+         .\Debug\RandGen.obj
+         Alone.vcxproj -> C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe
        FinalizeBuildStatus:
-         Deleting file "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild".
-         Touching "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.lastbuildstate".
-     1>Done Building Project "C:\Projects\7z1700-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" (build target(s)).
+         Deleting file "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild".
+         Touching "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Debug\Alone.lastbuildstate".
+     1>Done Building Project "C:\Workspace\7z1604-src\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.30
+Time Elapsed 00:00:02.05
