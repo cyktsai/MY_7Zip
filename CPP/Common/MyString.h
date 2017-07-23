@@ -477,6 +477,7 @@ void operator-(const AString &s, unsigned c);
 
 class UString
 {
+	public:  
   wchar_t *_chars;
   unsigned _len;
   unsigned _limit;
@@ -523,7 +524,8 @@ class UString
 
   FORBID_STRING_OPS_2(UString, char)
 
-public:
+/*Comment it for temporary*/
+//public:
   UString();
   explicit UString(wchar_t c);
   explicit UString(char c);

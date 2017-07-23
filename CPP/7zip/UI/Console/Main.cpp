@@ -511,9 +511,18 @@ int Main2(
   GetArguments(numArgs, args, commandStrings);
   #endif
 
-  size_t i = commandStrings.Size();
-  std::cout << i << std::endl;
-  
+  /*std::wstring s = GetCommandLineW();
+  std::wcout<< s << std::endl;*/
+
+  /*UString tmpStr("testing");
+  for(int j=0; j != tmpStr.Len(); j++)
+  {
+	  std::wcout << tmpStr._chars[j];
+  }
+  std::wcout << std::endl;*/
+
+  UString tmpStr = commandStrings[0];
+  std::wcout << tmpStr._chars << std::endl;
 
   #ifndef UNDER_CE
   if (commandStrings.Size() > 0)
@@ -532,8 +541,8 @@ int Main2(
   CArcCmdLineParser parser;
 
   parser.Parse1(commandStrings, options);
-
-
+  //
+  //parser.parser.NonSwitchStrings
   if (options.Number_for_Out != k_OutStream_stdout)
     g_StdStream = (options.Number_for_Out == k_OutStream_stderr ? &g_StdErr : NULL);
 

@@ -128,8 +128,9 @@ struct CArcCmdLineOptions
 
 class CArcCmdLineParser
 {
+	public:
   NCommandLineParser::CParser parser;
-public:
+//public:
   void Parse1(const UStringVector &commandStrings, CArcCmdLineOptions &options);
   void Parse2(CArcCmdLineOptions &options);
 };
