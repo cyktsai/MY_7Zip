@@ -31,6 +31,7 @@ bool SplitCommandLine(const UString &src, UString &dest1, UString &dest2)
   return i != 0;
 }
 
+
 void SplitCommandLine(const UString &s, UStringVector &parts)
 {
 	//Initialize the Commline input string to sTemp
@@ -182,11 +183,15 @@ bool CParser::ParseStrings(const CSwitchForm *switchForms, unsigned numSwitches,
     const UString &s = commandStrings[i];
     if (StopSwitchIndex < 0)
     {
+		//Check if the commandStrings[i] contains "--" to stop switch parsing.
       if (s.IsEqualTo(kStopSwitchParsing))
       {
         StopSwitchIndex = NonSwitchStrings.Size();
         continue;
       }
+	  //Check if the commandStrings[i] is the switch
+	  // if (s is not empty) and (s is a swith charactor) 
+		//then call "ParseString"
       if (!s.IsEmpty() && IsItSwitchChar(s[0]))
       {
         if (ParseString(s, switchForms, numSwitches))

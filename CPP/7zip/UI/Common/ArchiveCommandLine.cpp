@@ -869,10 +869,11 @@ static inline void SetStreamMode(const CSwitchResult &sw, unsigned &res)
 }
 
 
+//conver commandString into nonSwitchString
 void CArcCmdLineParser::Parse1(const UStringVector &commandStrings,
     CArcCmdLineOptions &options)
 {
-	//
+	//Here to read commandStrings to NonSwitchStrings
   if (!parser.ParseStrings(kSwitchForms, ARRAY_SIZE(kSwitchForms), commandStrings))
     throw CArcCmdLineException(parser.ErrorMessage, parser.ErrorLine);
 
