@@ -5,3 +5,10 @@
 *.sdf
 *.opensdf
 *.sdf
+*.tlog
+*.obj
+*.obj
+*.sdf
+*.suo
+*.vcxproj
+*.user
