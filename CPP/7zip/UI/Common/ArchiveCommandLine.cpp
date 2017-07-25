@@ -197,6 +197,12 @@ static const NExtract::NOverwriteMode::EEnum k_OverwriteModes[] =
   NExtract::NOverwriteMode::kRenameExisting
 };
 
+//CSwitchForm
+/*const char *Key;
+  Byte Type;
+  bool Multi;
+  Byte MinLen;
+  const char *PostCharSet;*/
 static const CSwitchForm kSwitchForms[] =
 {
   { "?" },

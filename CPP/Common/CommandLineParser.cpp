@@ -107,7 +107,7 @@ bool CParser::ParseString(const UString &s, const CSwitchForm *switchForms, unsi
 
   if (maxLen < 0)
   {
-    ErrorMessage = "Unknown switch:";
+    ErrorMessage = "Haha!! Unknown switch:";
     return false;
   }
 
