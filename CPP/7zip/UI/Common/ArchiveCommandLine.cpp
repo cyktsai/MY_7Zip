@@ -28,6 +28,9 @@
 #include "Update.h"
 #include "UpdateAction.h"
 
+//Testing
+#include <iostream>
+
 extern bool g_CaseSensitive;
 extern bool g_PathTrailReplaceMode;
 
@@ -873,10 +876,11 @@ static inline void SetStreamMode(const CSwitchResult &sw, unsigned &res)
 void CArcCmdLineParser::Parse1(const UStringVector &commandStrings,
     CArcCmdLineOptions &options)
 {
+	std::wcout << "kSW size: " << ARRAY_SIZE(kSwitchForms) << std::endl;
 	//Here to read commandStrings to NonSwitchStrings
   if (!parser.ParseStrings(kSwitchForms, ARRAY_SIZE(kSwitchForms), commandStrings))
     throw CArcCmdLineException(parser.ErrorMessage, parser.ErrorLine);
-
+  
   options.IsInTerminal = MY_IS_TERMINAL(stdin);
   options.IsStdOutTerminal = MY_IS_TERMINAL(stdout);
   options.IsStdErrTerminal = MY_IS_TERMINAL(stderr);

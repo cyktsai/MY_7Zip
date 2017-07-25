@@ -58,6 +58,19 @@ public:
   const CSwitchResult& operator[](unsigned index) const { return _switches[index]; }
 };
 
+
+class CParsera
+{
+  CSwitchResult *_switches;
+
+public:
+  
+  CParsera();
+  ~CParsera();
+
+  //const CSwitchResult& operator[](unsigned index) const { return _switches[index]; }
+};
+
 }
 
 #endif

@@ -521,8 +521,10 @@ int Main2(
   }
   std::wcout << std::endl;*/
 
-  UString tmpStr = commandStrings[0];
-  std::wcout << tmpStr._chars << std::endl;
+  /*UString tmpStr = commandStrings[0];
+  std::wcout << tmpStr._chars << std::endl;*/
+ 
+  
 
   #ifndef UNDER_CE
   if (commandStrings.Size() > 0)
@@ -537,12 +539,14 @@ int Main2(
   }
   
   CArcCmdLineOptions options;
-
+  
   CArcCmdLineParser parser;
+  
+	
 
   parser.Parse1(commandStrings, options);
-  //
-  //parser.parser.NonSwitchStrings
+  //commandStrings are saved to parser.parser.NonSwitchStrings
+
   if (options.Number_for_Out != k_OutStream_stdout)
     g_StdStream = (options.Number_for_Out == k_OutStream_stderr ? &g_StdErr : NULL);
 

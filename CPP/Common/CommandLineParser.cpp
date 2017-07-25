@@ -69,6 +69,17 @@ CParser::~CParser()
   delete []_switches;
 }
 
+CParsera::CParsera():
+  _switches(NULL)
+{
+}
+
+CParsera::~CParsera()
+{
+  delete []_switches;
+}
+
+
 
 // if (s) contains switch then function updates switch structures
 // out: true, if (s) is a switch
@@ -204,5 +215,6 @@ bool CParser::ParseStrings(const CSwitchForm *switchForms, unsigned numSwitches,
   }
   return true;
 }
+
 
 }
