@@ -1,17 +1,194 @@
-﻿Build started 7/23/2017 9:04:50 AM.
-     1>Project "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 7/25/2017 12:42:41 AM.
+     1>Project "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe' is denied.
+       InitializeBuildStatus:
          Creating "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp".\Debug\Alone.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gr /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\Debug\Alone.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gr /TP /analyze- /errorReport:prompt ..\..\UI\Console\BenchCon.cpp ..\..\UI\Console\ConsoleClose.cpp ..\..\UI\Console\ExtractCallbackConsole.cpp ..\..\UI\Console\HashCon.cpp ..\..\UI\Console\List.cpp ..\..\UI\Console\MainAr.cpp ..\..\UI\Console\OpenCallbackConsole.cpp ..\..\UI\Console\PercentPrinter.cpp ..\..\UI\Console\UpdateCallbackConsole.cpp ..\..\UI\Console\UserInputUtils.cpp ..\..\..\Common\CommandLineParser.cpp ..\..\..\Common\CRC.cpp ..\..\..\Common\CrcReg.cpp ..\..\..\Common\IntToString.cpp ..\..\..\Common\ListFileUtils.cpp ..\..\..\Common\MyString.cpp ..\..\..\Common\MyVector.cpp ..\..\..\Common\NewHandler.cpp ..\..\..\Common\Sha256Reg.cpp ..\..\..\Common\StdInStream.cpp ..\..\..\Common\StdOutStream.cpp ..\..\..\Common\StringConvert.cpp ..\..\..\Common\StringToInt.cpp ..\..\..\Common\UTFConvert.cpp ..\..\..\Common\Wildcard.cpp ..\..\..\Common\XzCrc64Init.cpp ..\..\..\Common\XzCrc64Reg.cpp ..\..\..\Windows\DLL.cpp ..\..\..\Windows\ErrorMsg.cpp ..\..\..\Windows\FileDir.cpp ..\..\..\Windows\FileFind.cpp ..\..\..\Windows\FileIO.cpp ..\..\..\Windows\FileLink.cpp ..\..\..\Windows\FileName.cpp ..\..\..\Windows\MemoryLock.cpp ..\..\..\Windows\PropVariant.cpp ..\..\..\Windows\PropVariantConv.cpp ..\..\..\Windows\Synchronization.cpp ..\..\..\Windows\System.cpp ..\..\..\Windows\TimeUtils.cpp ..\..\Common\CreateCoder.cpp ..\..\Common\CWrappers.cpp ..\..\Common\FilePathAutoRename.cpp ..\..\Common\FileStreams.cpp ..\..\Common\FilterCoder.cpp ..\..\Common\InBuffer.cpp ..\..\Common\InOutTempBuffer.cpp ..\..\Common\LimitedStreams.cpp ..\..\Common\LockedStream.cpp ..\..\Common\MethodId.cpp ..\..\Common\MethodProps.cpp ..\..\Common\OffsetStream.cpp ..\..\Common\OutBuffer.cpp ..\..\Common\ProgressUtils.cpp ..\..\Common\PropId.cpp ..\..\Common\StreamBinder.cpp ..\..\Common\StreamObjects.cpp ..\..\Common\StreamUtils.cpp ..\..\Common\UniqBlocks.cpp ..\..\Common\VirtThread.cpp ..\..\Compress\Bcj2Coder.cpp ..\..\Compress\Bcj2Register.cpp ..\..\Compress\BcjCoder.cpp ..\..\Compress\BcjRegister.cpp ..\..\Compress\BranchMisc.cpp ..\..\Compress\BranchRegister.cpp ..\..\Compress\ByteSwap.cpp ..\..\Compress\CopyCoder.cpp ..\..\Compress\CopyRegister.cpp ..\..\Compress\DeltaFilter.cpp ..\..\Compress\Lzma2Decoder.cpp ..\..\Compress\Lzma2Encoder.cpp ..\..\Compress\Lzma2Register.cpp ..\..\Compress\LzmaDecoder.cpp ..\..\Compress\LzmaEncoder.cpp ..\..\Compress\LzmaRegister.cpp ..\..\Compress\XzDecoder.cpp ..\..\Compress\XzEncoder.cpp ..\..\Archive\7z\7zCompressionMode.cpp ..\..\Archive\7z\7zDecode.cpp ..\..\Archive\7z\7zEncode.cpp ..\..\Archive\7z\7zExtract.cpp ..\..\Archive\7z\7zFolderInStream.cpp ..\..\Archive\7z\7zHandler.cpp ..\..\Archive\7z\7zHandlerOut.cpp ..\..\Archive\7z\7zHeader.cpp ..\..\Archive\7z\7zIn.cpp ..\..\Archive\7z\7zOut.cpp ..\..\Archive\7z\7zProperties.cpp ..\..\Archive\7z\7zRegister.cpp ..\..\Archive\7z\7zSpecStream.cpp ..\..\Archive\7z\7zUpdate.cpp ..\..\Archive\Common\CoderMixer2.cpp ..\..\Archive\Common\DummyOutStream.cpp ..\..\Archive\Common\HandlerOut.cpp ..\..\Archive\Common\InStreamWithCRC.cpp ..\..\Archive\Common\ItemNameUtils.cpp ..\..\Archive\Common\MultiStream.cpp ..\..\Archive\Common\OutStreamWithCRC.cpp ..\..\Archive\Common\ParseProperties.cpp ..\..\Archive\LzmaHandler.cpp ..\..\Archive\SplitHandler.cpp ..\..\Archive\XzHandler.cpp ..\..\UI\Common\ArchiveCommandLine.cpp ..\..\UI\Common\ArchiveExtractCallback.cpp ..\..\UI\Common\ArchiveOpenCallback.cpp ..\..\UI\Common\Bench.cpp ..\..\UI\Common\DefaultName.cpp ..\..\UI\Common\EnumDirItems.cpp ..\..\UI\Common\Extract.cpp ..\..\UI\Common\ExtractingFilePath.cpp ..\..\UI\Common\HashCalc.cpp ..\..\UI\Common\LoadCodecs.cpp ..\..\UI\Common\OpenArchive.cpp ..\..\UI\Common\PropIDUtils.cpp ..\..\UI\Common\SetProperties.cpp ..\..\UI\Common\SortUtils.cpp ..\..\UI\Common\TempFiles.cpp ..\..\UI\Common\Update.cpp ..\..\UI\Common\UpdateAction.cpp ..\..\UI\Common\UpdateCallback.cpp ..\..\UI\Common\UpdatePair.cpp ..\..\UI\Common\UpdateProduce.cpp ..\..\Crypto\7zAes.cpp ..\..\Crypto\7zAesRegister.cpp ..\..\Crypto\MyAes.cpp ..\..\Crypto\RandGen.cpp
+         RandGen.cpp
+         MyAes.cpp
+         7zAesRegister.cpp
+         7zAes.cpp
+         UpdateProduce.cpp
+         UpdatePair.cpp
+         UpdateCallback.cpp
+         UpdateAction.cpp
+         Update.cpp
+         TempFiles.cpp
+         SortUtils.cpp
+         SetProperties.cpp
+         PropIDUtils.cpp
+         OpenArchive.cpp
+         LoadCodecs.cpp
+         HashCalc.cpp
+         ExtractingFilePath.cpp
+         Extract.cpp
+         EnumDirItems.cpp
+         DefaultName.cpp
+         Generating Code...
+         Compiling...
+         Bench.cpp
+         ArchiveOpenCallback.cpp
+         ArchiveExtractCallback.cpp
+         ArchiveCommandLine.cpp
+         XzHandler.cpp
+         SplitHandler.cpp
+         LzmaHandler.cpp
+         ParseProperties.cpp
+         OutStreamWithCRC.cpp
+         MultiStream.cpp
+         ItemNameUtils.cpp
+         InStreamWithCRC.cpp
+         HandlerOut.cpp
+         DummyOutStream.cpp
+         CoderMixer2.cpp
+         7zUpdate.cpp
+         7zSpecStream.cpp
+         7zRegister.cpp
+         7zProperties.cpp
+         7zOut.cpp
+         Generating Code...
+         Compiling...
+         7zIn.cpp
+         7zHeader.cpp
+         7zHandlerOut.cpp
+         7zHandler.cpp
+         7zFolderInStream.cpp
+         7zExtract.cpp
+         7zEncode.cpp
+         7zDecode.cpp
+         7zCompressionMode.cpp
+         XzEncoder.cpp
+         XzDecoder.cpp
+         LzmaRegister.cpp
+         LzmaEncoder.cpp
+         LzmaDecoder.cpp
+         Lzma2Register.cpp
+         Lzma2Encoder.cpp
+         Lzma2Decoder.cpp
+         DeltaFilter.cpp
+         CopyRegister.cpp
+         CopyCoder.cpp
+         Generating Code...
+         Compiling...
+         ByteSwap.cpp
+         BranchRegister.cpp
+         BranchMisc.cpp
+         BcjRegister.cpp
+         BcjCoder.cpp
+         Bcj2Register.cpp
+         Bcj2Coder.cpp
+         VirtThread.cpp
+         UniqBlocks.cpp
+         StreamUtils.cpp
+         StreamObjects.cpp
+         StreamBinder.cpp
+         PropId.cpp
+         ProgressUtils.cpp
+         OutBuffer.cpp
+         OffsetStream.cpp
+         MethodProps.cpp
+         MethodId.cpp
+         LockedStream.cpp
+         LimitedStreams.cpp
+         Generating Code...
+         Compiling...
+         InOutTempBuffer.cpp
+         InBuffer.cpp
+         FilterCoder.cpp
+         FileStreams.cpp
+         FilePathAutoRename.cpp
+         CWrappers.cpp
+         CreateCoder.cpp
+         TimeUtils.cpp
+         System.cpp
+         Synchronization.cpp
+         PropVariantConv.cpp
+         PropVariant.cpp
+         MemoryLock.cpp
+         FileName.cpp
+         FileLink.cpp
+         FileIO.cpp
+         FileFind.cpp
+         FileDir.cpp
+         ErrorMsg.cpp
+         DLL.cpp
+         Generating Code...
+         Compiling...
+         XzCrc64Reg.cpp
+         XzCrc64Init.cpp
+         Wildcard.cpp
+         UTFConvert.cpp
+         StringToInt.cpp
+         StringConvert.cpp
+         StdOutStream.cpp
+         StdInStream.cpp
+         Sha256Reg.cpp
+         NewHandler.cpp
+         MyVector.cpp
+         MyString.cpp
+         ListFileUtils.cpp
+         IntToString.cpp
+         CrcReg.cpp
+         CRC.cpp
+         CommandLineParser.cpp
+         UserInputUtils.cpp
+         UpdateCallbackConsole.cpp
+         PercentPrinter.cpp
+         Generating Code...
+         Compiling...
+         OpenCallbackConsole.cpp
+         MainAr.cpp
+         List.cpp
+         HashCon.cpp
+         ExtractCallbackConsole.cpp
+         ConsoleClose.cpp
+         BenchCon.cpp
+         Generating Code...
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D PROG_VARIANT_R /D _DEBUG /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp".\Debug\Alone.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gr /TP /analyze- /errorReport:prompt ..\..\UI\Console\Main.cpp
          Main.cpp
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gr /TC /analyze- /errorReport:prompt ..\..\..\..\C\Sha256.c ..\..\..\..\C\Xz.c ..\..\..\..\C\XzCrc64.c ..\..\..\..\C\XzCrc64Opt.c ..\..\..\..\C\XzDec.c ..\..\..\..\C\XzEnc.c ..\..\..\..\C\XzIn.c ..\..\..\..\C\7zCrc.c ..\..\..\..\C\7zCrcOpt.c ..\..\..\..\C\7zStream.c ..\..\..\..\C\Aes.c ..\..\..\..\C\AesOpt.c ..\..\..\..\C\Alloc.c ..\..\..\..\C\Bcj2.c ..\..\..\..\C\Bcj2Enc.c ..\..\..\..\C\Bra.c ..\..\..\..\C\Bra86.c ..\..\..\..\C\BraIA64.c ..\..\..\..\C\CpuArch.c ..\..\..\..\C\Delta.c ..\..\..\..\C\LzFind.c ..\..\..\..\C\LzFindMt.c ..\..\..\..\C\Lzma2Dec.c ..\..\..\..\C\Lzma2Enc.c ..\..\..\..\C\LzmaDec.c ..\..\..\..\C\LzmaEnc.c ..\..\..\..\C\MtCoder.c ..\..\..\..\C\Threads.c
+         Threads.c
+         MtCoder.c
+         LzmaEnc.c
+         LzmaDec.c
+         Lzma2Enc.c
+         Lzma2Dec.c
+         LzFindMt.c
+         LzFind.c
+         Delta.c
+         CpuArch.c
+         BraIA64.c
+         Bra86.c
+         Bra.c
+         Bcj2Enc.c
+         Bcj2.c
+         Alloc.c
+         AesOpt.c
+         Aes.c
+         7zStream.c
+         7zCrcOpt.c
+         Generating Code...
+         Compiling...
+         7zCrc.c
+         XzIn.c
+         XzEnc.c
+         XzDec.c
+         XzCrc64Opt.c
+         XzCrc64.c
+         Xz.c
+         Sha256.c
+         Generating Code...
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0419" /nologo /fo"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\resource.res" resource.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe) does not match the Linker's OutputFile property value (C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\(ProjectName).exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Alone) does not match the Linker's OutputFile property value ((ProjectName)). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.lib" /MACHINE:X86 C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\resource.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"(ProjectName).exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.lib" /MACHINE:X86 C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\resource.res
          .\Debug\BenchCon.obj
          .\Debug\ConsoleClose.obj
          .\Debug\ExtractCallbackConsole.obj
@@ -173,8 +350,8 @@
        FinalizeBuildStatus:
          Deleting file "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.unsuccessfulbuild".
          Touching "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Debug\Alone.lastbuildstate".
-     1>Done Building Project "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Worksapce\MY_7Zip\CPP\7zip\Bundles\Alone7z\Alone.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.41
+Time Elapsed 00:00:14.19
