@@ -22,3 +22,6 @@
 *.log
 *.manifest
 *.tlog
+*.obj
+*.obj
+*.obj
